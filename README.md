@@ -4,8 +4,8 @@ AI engineering, with a bias toward things I can measure. Master's student in Dat
 Engineering and Consulting at HS Albstadt-Sigmaringen. Right now I'm working toward three
 skills, retrieval evaluation, guardrails and agent orchestration.
 
-I hold the Claude Certified Architect, Professional (CCAR-P), issued by Anthropic
-in October 2026. [Verify on Credly](https://www.credly.com/badges/5b729a78-9d71-4b9d-a707-95d3a5aa2dab).
+In October 2026 I passed Anthropic's Claude Certified Architect, Professional exam
+(CCAR-P). [Verify on Credly](https://www.credly.com/badges/5b729a78-9d71-4b9d-a707-95d3a5aa2dab).
 
 Most of what I build starts as a question I can't answer by reading the code.
 Does this retriever actually retrieve? Does the guardrail block anything? Does the
