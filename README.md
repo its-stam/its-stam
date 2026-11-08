@@ -2,9 +2,9 @@
 
 AI engineering, with a bias toward things I can measure. Master's student in Data
 Engineering and Consulting at HS Albstadt-Sigmaringen. Right now I'm working toward three
-skills: retrieval evaluation, guardrails, agent orchestration.
+skills, retrieval evaluation, guardrails and agent orchestration.
 
-Certified: Claude Certified Architect, Professional (CCAR-P), issued by Anthropic
+I hold the Claude Certified Architect, Professional (CCAR-P), issued by Anthropic
 in October 2026. [Verify on Credly](https://www.credly.com/badges/5b729a78-9d71-4b9d-a707-95d3a5aa2dab).
 
 Most of what I build starts as a question I can't answer by reading the code.
@@ -16,9 +16,9 @@ Where I don't have a number yet, the README says so.
 
 | Project | What it measures | Status |
 |---|---|---|
-| Doorman | prompt-injection guardrails: attack-success rate before and after, against a red-team corpus and a benign control set | December 2026 |
+| Doorman | prompt-injection guardrails, measured as attack-success rate before and after, against a red-team corpus and a benign control set | December 2026 |
 
-One rule for every project, taken from a build plan I keep in my notes: a project counts once
+One rule for every project, taken from a build plan I keep in my notes. A project counts once
 it has an eval, a number, and a trade-off I can defend out loud.
 
 ### Selected work
@@ -35,7 +35,7 @@ at the end.
 [groundtruth](https://github.com/its-stam/groundtruth). Retrieval evaluation on
 nine Stanford CS230 lecture transcripts. A checked golden set of 100 questions and
 four configurations, one change at a time. Reranking is the only change that moves
-recall@10: 98 of 100 instead of 95.
+recall@10, to 98 of 100 instead of 95.
 
 [rag-chatbot-gruppe1](https://github.com/its-stam/rag-chatbot-gruppe1). A RAG
 assistant over internal HR documents. pgvector with an HNSW index, overlapping
