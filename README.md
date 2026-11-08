@@ -35,7 +35,7 @@ at the end.
 [groundtruth](https://github.com/its-stam/groundtruth). Retrieval evaluation on
 nine Stanford CS230 lecture transcripts. A checked golden set of 100 questions and
 four configurations, one change at a time. Reranking is the only change that moves
-recall@10, to 98 of 100 instead of 95.
+recall@10, from 95 to 98 of 100.
 
 [rag-chatbot-gruppe1](https://github.com/its-stam/rag-chatbot-gruppe1). A RAG
 assistant over internal HR documents. pgvector with an HNSW index, overlapping
