@@ -1,7 +1,7 @@
 ## Rustam Kohen
 
-AI engineering, with a bias toward things I can measure. M.Eng. Data Engineering
-and Consulting at HS Albstadt-Sigmaringen. Right now I'm working toward three
+AI engineering, with a bias toward things I can measure. Master's student in Data
+Engineering and Consulting at HS Albstadt-Sigmaringen. Right now I'm working toward three
 skills: retrieval evaluation, guardrails, agent orchestration.
 
 Most of what I build starts as a question I can't answer by reading the code.
@@ -13,13 +13,26 @@ Where I don't have a number yet, the README says so.
 
 | Project | What it measures | Status |
 |---|---|---|
-| Groundtruth | retrieval evaluation: a hand-reviewed golden set, recall@10 / MRR / nDCG across chunking, hybrid search and reranking, a CI gate that fails on regression | starts October 2026 |
 | Doorman | prompt-injection guardrails: attack-success rate before and after, against a red-team corpus and a benign control set | December 2026 |
 
-One rule for both, taken from a build plan I keep in my notes: a project counts once
+One rule for every project, taken from a build plan I keep in my notes: a project counts once
 it has an eval, a number, and a trade-off I can defend out loud.
 
 ### Selected work
+
+[crm-data-cleanup](https://github.com/its-stam/crm-data-cleanup). Cleans messy CRM
+exports before an import. Emails and phone numbers are normalized, junk is set aside
+with a reason instead of deleted, and duplicates are merged across shared emails and
+phone numbers with union-find. Hard checks stop the run if a single row or contact
+detail would get lost, and a review page lets a person sign off before the import.
+The approach comes from a real Zoho-to-Pipedrive migration (11,813 rows to 10,628
+contacts); the repo runs on 2,000 generated rows. README in German, English summary
+at the end.
+
+[groundtruth](https://github.com/its-stam/groundtruth). Retrieval evaluation on
+nine Stanford CS230 lecture transcripts. A checked golden set of 100 questions and
+four configurations, one change at a time. Reranking is the only change that moves
+recall@10: 98 of 100 instead of 95.
 
 [rag-chatbot-gruppe1](https://github.com/its-stam/rag-chatbot-gruppe1). A RAG
 assistant over internal HR documents. pgvector with an HNSW index, overlapping
