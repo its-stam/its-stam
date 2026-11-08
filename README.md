@@ -1,7 +1,7 @@
 ## Rustam Kohen
 
 AI engineering, with a bias toward things I can measure. Master's student in Data
-Engineering and Consulting at HS Albstadt-Sigmaringen. Right now I'm working toward three
+Engineering and Consulting. Right now I'm working toward three
 skills, retrieval evaluation, guardrails and agent orchestration.
 
 In October 2026 I passed Anthropic's Claude Certified Architect, Professional exam
