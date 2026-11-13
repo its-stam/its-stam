@@ -1,7 +1,7 @@
 ## Rustam Kohen
 
-AI engineering, with a bias toward things I can measure. Master's student in Data
-Engineering and Consulting. Right now I'm working toward three
+AI engineering, with a bias toward things I can measure. I'm doing two master's degrees at once, in Data Engineering
+and Computer Science. Right now I'm working toward three
 skills, retrieval evaluation, guardrails and agent orchestration.
 
 In October 2026 I passed Anthropic's Claude Certified Architect, Professional exam
